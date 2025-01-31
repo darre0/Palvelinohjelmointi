@@ -18,7 +18,7 @@ const host = "localhost";
 app.use(express.static(path.join(__dirname, "templates")));
 
 // Määritellään reitit
-app.get("/", (req, res) => {
+app.get("/kuvapalvelin", (req, res) => {
   res.sendFile(path.join(__dirname, "templates/index.html")); // Lähetetään index.html vastauksena
 });
 
