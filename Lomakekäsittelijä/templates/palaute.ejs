@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palautelomake</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <h1>Palautelomake</h1>
+    <form action="/palaute" method="POST">
+      <label for="nimi">Nimi:</label>
+      <input type="text" id="nimi" name="nimi" required />
+
+      <label for="sposti">Sähköposti:</label>
+      <input type="email" id="sposti" name="sposti" required />
+
+      <label for="palaute">Palaute:</label>
+      <textarea id="palaute" name="palaute" required></textarea>
+
+      <button type="submit">Lähetä</button>
+    </form>
+  </body>
+</html>
