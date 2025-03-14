@@ -1,0 +1,55 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: green;
+}
+h1 {
+  color: red;
+  text-align: center;
+  display: block;
+  padding: 10px 60px;
+  border: 2px solid black;
+  background-color: lawngreen;
+  border-radius: 5px;
+}
+.link-box {
+  display: inline-block;
+}
+.link-box a {
+  border-radius: 5px;
+  background-color: lawngreen;
+  color: black;
+  outline: 2px;
+  margin: 20px;
+  padding: 20px;
+}
+.container {
+  text-align: center;
+}
+#pokemonit {
+  text-align: center;
+}
+#pokemon-stats {
+  text-align: center;
+  margin: 0px 500px;
+  background-color: lawngreen;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+a {
+  display: flex;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: lawngreen;
+  color: black;
+  outline: 2px;
+  margin: 10px;
+  padding: 10px;
+}
+img {
+  background-color: green;
+  border-radius: 80px;
+  width: 150px;
+  height: 150px;
+}
